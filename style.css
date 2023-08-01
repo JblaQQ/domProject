@@ -1,0 +1,140 @@
+
+
+.container{
+        display: flex;
+        justify-content: space-around;
+}
+.list{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        align-content: center;
+
+    }
+
+li{
+         margin-right: 30px;
+}
+
+#bold{
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+#cart{
+         width: 50px;
+         height: 50px;
+         border-radius: 15px;
+   }
+
+.containers{
+        display: flex;
+        margin-top: 90px;
+        justify-content: space-around;
+    } 
+
+.left{
+        margin-right:none;
+    }
+
+.right{
+        margin-left: none;
+        margin-top: 70px;
+}
+
+#snk1{
+        color: rgb(218,164,174);
+    }
+
+#snk2{
+        font-size: 50px;  
+}
+
+#snk3{
+        font-size: 20px;  
+    }
+
+#snk4{
+        font-size: 30px;
+    }
+.sales{
+        color: rgb(218,164,174);
+        margin-left: 20px;
+        font-size: 20px;
+        background-color: bisque;
+   }
+
+#snk5{
+        font-size: 22px;
+        text-decoration: line-through;
+}
+#addcart{
+         color: white;
+         background-color: rgb(218,164,174);
+         padding:10px 20px;
+         border:none;
+         cursor:pointer;
+         border-radius: 5px;
+         width: 150px;
+   }
+#pl{
+        color: rgb(60, 19, 49);
+    }
+
+#mi{
+        color: rgb(60, 19, 49);
+    }
+
+.section3{
+        display: flex;
+        width: 100px;
+        height:150px;
+        justify-content: space-between;
+        margin-left: 10px;
+        border-radius: 20px;
+        margin-top: 30px;
+    
+    }
+
+#snk6{
+        margin-left: 32px;
+        margin-right: 2px;
+    }
+
+#snk7{
+        margin-left: 35px;
+    }
+
+#snk8{
+        margin-left: 18px;
+    }
+#snk9{
+        margin-left: 10px;
+    }
+
+    @media screen and (min-width: 600px) {
+        /* Adjust header styles for mobile */
+        .list {
+          display: none;
+        }
+      
+        #cart {
+          margin-top: 10px;
+        }
+      
+        /* Adjust main content styles for mobile */
+        .left {
+          width: 100%;
+        }
+      
+        .right {
+          text-align: center;
+        }
+      
+        /* Adjust section3 styles for mobile */
+        .section3 {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+      }

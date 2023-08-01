@@ -1,0 +1,55 @@
+/* Mobile-friendly styles */
+@media screen and (max-width: 767px) {
+  /* Adjust header styles for mobile */
+  .list {
+    display: none;
+  }
+
+  #cart {
+    margin-top: 10px;
+  }
+
+  /* Adjust main content styles for mobile */
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  /* Adjust section3 styles for mobile */
+  .section3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+/* Tablet and larger screen styles */
+@media screen and (min-width: 768px) {
+  /* Reset header styles for larger screens */
+  .list {
+    display: flex;
+  }
+
+  #cart {
+    margin-top: 0;
+  }
+
+  /* Reset main content styles for larger screens */
+  .left {
+    width: 40%;
+  }
+
+  .right {
+    text-align: left;
+  }
+
+  /* Reset section3 styles for larger screens */
+  .section3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
