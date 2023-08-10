@@ -112,29 +112,4 @@ li{
         margin-left: 10px;
     }
 
-    @media screen and (min-width: 600px) {
-        /* Adjust header styles for mobile */
-        .list {
-          display: none;
-        }
-      
-        #cart {
-          margin-top: 10px;
-        }
-      
-        /* Adjust main content styles for mobile */
-        .left {
-          width: 100%;
-        }
-      
-        .right {
-          text-align: center;
-        }
-      
-        /* Adjust section3 styles for mobile */
-        .section3 {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          gap: 10px;
-        }
-      }
+    
